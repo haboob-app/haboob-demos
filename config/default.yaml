@@ -1,0 +1,5 @@
+haboob:
+  # Edit url is read only - only for test purpose
+  editUrl: https://app.haboob.co/r1i-hzShe/edit/Hyej-nMSnx
+  sendUrl: https://send.haboob.co/v1/hooks/r1i-hzShe/send/
+  defaultEnv: development

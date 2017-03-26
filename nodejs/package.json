@@ -1,0 +1,30 @@
+{
+  "name": "haboob-nodejs-demo",
+  "version": "0.1.0",
+  "description": "Haboob demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js --NODE_CONFIG_DIR='../config/'",
+    "test:prod": "NODE_ENV=production node index.js --NODE_CONFIG_DIR='../config/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haboob-app/haboob-demos.git"
+  },
+  "keywords": [
+    "haboob",
+    "demo",
+    "nodejs"
+  ],
+  "author": "@dolcalmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haboob-app/haboob-demos/issues"
+  },
+  "homepage": "https://github.com/haboob-app/haboob-demos#readme",
+  "dependencies": {
+    "config": "^1.25.1",
+    "js-yaml": "^3.8.2",
+    "request": "^2.81.0"
+  }
+}
