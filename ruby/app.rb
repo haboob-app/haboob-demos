@@ -28,13 +28,19 @@ request.body = post_data.to_json
 
 # Send the request
 begin
-  response = http.request(request) {|res|
-    body = JSON.parse(res.body)
-    puts "your request has been sent successfully to: " + uri.to_s
-    puts "timestamp: " + body["hook"]["timestamp"].to_s
-    puts "edit url (read only): " + config["editUrl"]
-    puts "logs: " + config["editUrl"] + "/history"
-  }
+  response = http.request(request)
+
+  case response
+    when Net::HTTPSuccess
+      body = JSON.parse(response.body)
+      puts "your request has been sent successfully to: " + uri.to_s
+      puts "timestamp: " + body["hook"]["timestamp"].to_s
+      puts "edit url (read only): " + config["editUrl"]
+      puts "logs: " + config["editUrl"] + "/history"
+    else
+      puts "Error: " + response.message
+  end
+
 rescue Exception => e
   puts "Error: " + e.message
 end
