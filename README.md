@@ -1,5 +1,5 @@
 # Haboob Demos
-Examples of how to use haboob with different programming languages
+Examples of how to use haboob with different programming languages and tools
 
 - [Node.js](/nodejs)
 - [Ruby](/ruby)
