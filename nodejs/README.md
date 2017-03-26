@@ -1,4 +1,4 @@
-# Haboob test - Node.js
+# Haboob Node.js Demo
 Example of how to use haboob with Node.js
 
 ## Installation

@@ -11,7 +11,7 @@ Examples of how to use haboob with different programming languages
 - Send Url:
   - Development: `https://send.haboob.co/v1/hooks/r1i-hzShe/send/development`
   - Production: `https://send.haboob.co/v1/hooks/r1i-hzShe/send/production`
-- Expected payload:
+- Example payload:
 ```json
 
 {
