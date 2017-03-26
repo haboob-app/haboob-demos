@@ -1,7 +1,7 @@
 var request = require('request'),
     config = require('config').get('haboob');
 
-var env = process.env.NODE_ENV || 'development';
+var env = process.env.NODE_ENV || config.defaultEnv;
 
 var postData = {
   "confirmUrl": "http://mydomain.com/confirm",
