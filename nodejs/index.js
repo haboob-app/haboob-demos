@@ -28,7 +28,7 @@ request(options, function (err, res, body) {
   if (err) {
     console.error('Error: ', err);
   } else {
-    console.info("request successfully sent to", options.url);
+    console.info("your request has been sent successfully to", options.url);
     console.info("timestamp:",  body.hook.timestamp);
     console.info('edit url (read only):', config.editUrl );
     console.info('logs:', config.editUrl + '/history');
