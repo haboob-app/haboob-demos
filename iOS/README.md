@@ -1,4 +1,4 @@
-# Haboob Ruby Demo
+# Haboob Swift Demo
 Example of how to use haboob with Swift
 
 ## Prerequisites
