@@ -7,6 +7,7 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [PHP](http://php.net/)
+* [Composer](https://getcomposer.org/)
 
 ## Installation
 
