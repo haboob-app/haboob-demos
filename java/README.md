@@ -16,4 +16,5 @@ You will need the following things properly installed on your computer.
 ## Test
 
 * `mvn package assembly:single`
-* `java -cp target/haboob-java-example-1.0-jar-with-dependencies.jar co.haboob.app.App`
+* To run on development `java -cp target/haboob-java-example-1.0-jar-with-dependencies.jar co.haboob.app.App`
+* To run on production `java -cp target/haboob-java-example-1.0-jar-with-dependencies.jar co.haboob.app.App production`

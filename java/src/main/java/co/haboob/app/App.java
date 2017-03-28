@@ -23,8 +23,15 @@ public class App
     public static void main(String[] args) throws Exception {
         CloseableHttpClient httpclient = HttpClients.createDefault();
         try {
-            
-            HttpPost httpPost = new HttpPost("https://send.haboob.co/v1/hooks/r1i-hzShe/send/production");
+            String env = "development";
+
+            if (args.length> 0) {
+                env = args[0];
+            }
+
+            System.out.println("Runnning on env: "+ env);
+
+            HttpPost httpPost = new HttpPost("https://send.haboob.co/v1/hooks/r1i-hzShe/send/"+env);
 
             StringEntity params = new StringEntity("{ \"list\": [ { \"title\": \"Java example\", \"value\": \"Java emails made easy\" } ], \"user\": { \"email\": \"john@doe-main.com\", \"name\": \"John Doe\" }, \"lang\": \"Java\", \"confirmUrl\": \"http://haboob.co\" }");
             httpPost.addHeader("content-type", "application/json");
