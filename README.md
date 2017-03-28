@@ -6,6 +6,7 @@ Examples of how to use [haboob](https://www.haboob.co/) with different programmi
 - [PHP](/php)
 - [Ruby](/ruby)
 - [Swift](/iOS)
+- [Java](/java)
 
 ## Configuration
 
