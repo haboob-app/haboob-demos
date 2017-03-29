@@ -2,6 +2,7 @@
 Examples of how to use [haboob](https://www.haboob.co/) with different programming languages and tools
 
 - [cURL](/curl)
+- [C#](/c#)
 - [Java](/java)
 - [Node.js](/nodejs)
 - [PHP](/php)
