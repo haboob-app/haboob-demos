@@ -11,7 +11,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone git@github.com:haboob-app/haboob-demos.git`
-* `cd haboob-demos/c#`
+* `cd haboob-demos/csharp`
 * open `HaboobDemo.sln`
 
 ## Test
