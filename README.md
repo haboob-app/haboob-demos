@@ -6,6 +6,7 @@ Examples of how to use [haboob](https://www.haboob.co/) with different programmi
 - [Java](/java)
 - [Node.js](/nodejs)
 - [PHP](/php)
+- [Python](/python)
 - [Ruby](/ruby)
 - [Scala](/scala)
 - [Swift](/iOS)
