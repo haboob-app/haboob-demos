@@ -3,6 +3,7 @@ Examples of how to use [haboob](https://www.haboob.co/) with different programmi
 
 - [cURL](/curl)
 - [C#](/csharp)
+- [Go](/go)
 - [Java](/java)
 - [Node.js](/nodejs)
 - [PHP](/php)
